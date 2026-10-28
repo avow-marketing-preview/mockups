@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-pm-2026-10-28/tikos-ice-cream/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-pm-2026-10-28/tikos-ice-cream/sitemap.xml
