@@ -1,0 +1,21 @@
+{
+  "business": "Old East Dallas Barbershop (OED Barbershop)",
+  "current_site": "https://oedbarbershop.square.site/",
+  "type": "redesign",
+  "sources": [
+    "https://oedbarbershop.square.site/",
+    "https://book.squareup.com/appointments/0rz9rg71cuszbk/location/LM8NV1TQHTT07/services"
+  ],
+  "video": null,
+  "palette": [
+    "#0F1A2E",
+    "#C9A24A",
+    "#C8312B",
+    "#F3EEE4"
+  ],
+  "fonts": [
+    "Zilla Slab Bold",
+    "Inter"
+  ],
+  "version": "p1"
+}
