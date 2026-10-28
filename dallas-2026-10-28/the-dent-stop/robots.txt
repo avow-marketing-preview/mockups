@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-2026-10-28/the-dent-stop/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-2026-10-28/the-dent-stop/sitemap.xml

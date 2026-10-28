@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage site into public/
+        run: |
+          mkdir public
+          rsync -a --exclude='.git' --exclude='.github' --exclude='public' ./ public/
+      - name: GoatCounter injection (ported verbatim from GitLab pages job)
+        shell: sh
+        run: |
+          GC='<script data-goatcounter-loader>(function(){try{var l=location,s=localStorage;var u=new URL(l.href);if(u.hash.indexOf("avow-owner")>-1||u.searchParams.get("avow")=="owner"){s.setItem("avow_skip_gc","1");u.searchParams.delete("avow");if(u.hash.indexOf("avow-owner")>-1)u.hash="";history.replaceState(null,"",u.pathname+u.search+u.hash)}if(s.getItem("avow_skip_gc")=="1")return}catch(e){}var g=document.createElement("script");g.async=true;g.src="//gc.zgo.at/count.js";g.setAttribute("data-goatcounter","https://avow-mockups.goatcounter.com/count");document.body.appendChild(g)})()</script>'
+          n=0; o=0
+          for f in $(find public -name '*.html'); do
+            case "$f" in public/index.html|public/updates/*|public/*-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/index.html)
+              sed -i -E -e 's,href="([^":#?]*(/|\.html))",href="\1#avow-owner",g' -e 's,href="([./]*|[^"]*-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/|[^"]*updates/[^"]*|[^"]*/logo/[^"]*)#avow-owner",href="\1",g' "$f"; o=$((o+1)); continue;; esac
+            case "$f" in public/avow/*|*/logo/*) continue;; esac
+            grep -q 'data-goatcounter' "$f" && continue
+            grep -q '</body>' "$f" || continue
+            sed -i "s#</body>#$GC</body>#" "$f" && n=$((n+1))
+          done
+          echo "GOATCOUNTER_PAGES=$n OWNER_LINK_PAGES=$o"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4

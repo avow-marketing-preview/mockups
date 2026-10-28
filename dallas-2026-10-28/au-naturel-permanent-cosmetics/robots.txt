@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-2026-10-28/au-naturel-permanent-cosmetics/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-2026-10-28/au-naturel-permanent-cosmetics/sitemap.xml
