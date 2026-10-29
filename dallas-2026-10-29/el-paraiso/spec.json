@@ -1,0 +1,23 @@
+{
+  "business": "El Paraiso Family Restaurant",
+  "current_site": "https://www.elparaisorestaurantdallas.com/",
+  "type": "redesign",
+  "sources": [
+    "https://www.elparaisorestaurantdallas.com/",
+    "https://www.elparaisorestaurantdallas.com/about.html",
+    "https://www.elparaisorestaurantdallas.com/menu.html",
+    "https://www.elparaisorestaurantdallas.com/contact.html"
+  ],
+  "video": null,
+  "palette": [
+    "#1F4A3A",
+    "#E8A33A",
+    "#B8361F",
+    "#F7EFE3"
+  ],
+  "fonts": [
+    "Fraunces",
+    "Work Sans"
+  ],
+  "version": "b1"
+}

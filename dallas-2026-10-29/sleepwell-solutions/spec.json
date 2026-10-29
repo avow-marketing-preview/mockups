@@ -1,0 +1,28 @@
+{
+  "business": "SleepWell Solutions",
+  "current_site": "https://www.sleepwellsolutions.com/",
+  "type": "redesign",
+  "sources": [
+    "https://www.sleepwellsolutions.com/",
+    "https://www.sleepwellsolutions.com/about-us",
+    "https://www.sleepwellsolutions.com/dr-keith-thornton",
+    "https://www.sleepwellsolutions.com/sleep-and-breathing",
+    "https://www.sleepwellsolutions.com/solutions-1",
+    "https://www.sleepwellsolutions.com/testimonials",
+    "https://www.sleepwellsolutions.com/new-patients",
+    "https://www.sleepwellsolutions.com/insurance",
+    "https://www.sleepwellsolutions.com/contact-us"
+  ],
+  "video": "YouTube ztxuyXWJhsQ and VCcqFNaQCXI (the business’s own embeds), click-to-load",
+  "palette": [
+    "#14213D",
+    "#E9C46A",
+    "#3E7F7C",
+    "#F3F5F8"
+  ],
+  "fonts": [
+    "Newsreader",
+    "Figtree"
+  ],
+  "version": "b1"
+}

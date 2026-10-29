@@ -1,0 +1,25 @@
+{
+  "business": "KayCee Club",
+  "current_site": "https://www.kayceeclub.com/",
+  "type": "redesign",
+  "sources": [
+    "https://www.kayceeclub.com/club/",
+    "https://www.kayceeclub.com/club/us/",
+    "https://www.kayceeclub.com/club/services-rentals/",
+    "https://www.kayceeclub.com/club/catering/",
+    "https://www.kayceeclub.com/club/preferred-vendors/",
+    "https://www.kayceeclub.com/pool/",
+    "https://www.kayceeclub.com/contact/"
+  ],
+  "video": null,
+  "palette": [
+    "#14284B",
+    "#2E9BD0",
+    "#D9623F",
+    "#F2F7FB"
+  ],
+  "fonts": [
+    "Archivo (wide)"
+  ],
+  "version": "b1"
+}

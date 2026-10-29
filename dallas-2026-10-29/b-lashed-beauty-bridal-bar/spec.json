@@ -1,0 +1,26 @@
+{
+  "business": "B-Lashed Beauty & Bridal Bar",
+  "current_site": "https://www.b-lashedbbb.com/",
+  "type": "redesign",
+  "sources": [
+    "https://www.b-lashedbbb.com/",
+    "https://www.b-lashedbbb.com/about",
+    "https://www.b-lashedbbb.com/contact",
+    "https://www.b-lashedbbb.com/bridal-makeup-in-dallas-tx",
+    "https://www.b-lashedbbb.com/salon-services",
+    "https://www.b-lashedbbb.com/eyelash-extensions-in-dallas-tx",
+    "https://www.b-lashedbbb.com/eyelash-extension-certification-near-me"
+  ],
+  "video": "img/salon.mp4 (from the business’s own homepage video)",
+  "palette": [
+    "#2B1630",
+    "#B0656A",
+    "#E9B8B0",
+    "#FBF3EF"
+  ],
+  "fonts": [
+    "Bodoni Moda",
+    "Jost"
+  ],
+  "version": "b1"
+}

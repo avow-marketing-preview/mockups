@@ -1,0 +1,27 @@
+{
+  "business": "Sherbi Stone",
+  "current_site": "https://www.sherbistone.com/",
+  "type": "redesign",
+  "sources": [
+    "https://www.sherbistone.com/",
+    "https://www.sherbistone.com/store",
+    "https://www.sherbistone.com/taj-mahal-inventory",
+    "https://www.sherbistone.com/Cabinets",
+    "https://www.sherbistone.com/nantucket-sinks",
+    "https://www.sherbistone.com/glazzio",
+    "https://www.sherbistone.com/about",
+    "https://www.sherbistone.com/contact"
+  ],
+  "video": "img/intro.mp4 (the business’s own homepage video, placed in the footer because it is a logo animation)",
+  "palette": [
+    "#2A2623",
+    "#C27F4F",
+    "#9A5E36",
+    "#F4F0EA"
+  ],
+  "fonts": [
+    "Marcellus",
+    "Manrope"
+  ],
+  "version": "b1"
+}
