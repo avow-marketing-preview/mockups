@@ -28,7 +28,7 @@ jobs:
           GC='<script data-goatcounter-loader>(function(){try{var l=location,s=localStorage;var u=new URL(l.href);if(u.hash.indexOf("avow-owner")>-1||u.searchParams.get("avow")=="owner"){s.setItem("avow_skip_gc","1");u.searchParams.delete("avow");if(u.hash.indexOf("avow-owner")>-1)u.hash="";history.replaceState(null,"",u.pathname+u.search+u.hash)}if(s.getItem("avow_skip_gc")=="1")return}catch(e){}var g=document.createElement("script");g.async=true;g.src="//gc.zgo.at/count.js";g.setAttribute("data-goatcounter","https://avow-mockups.goatcounter.com/count");document.body.appendChild(g)})()</script>'
           n=0; o=0
           for f in $(find public -name '*.html'); do
-            case "$f" in public/index.html|public/all-overviews/index.html|public/dallas-2026-10-29-fossil-creek/index.html|public/dallas-2026-10-30/index.html|public/updates/*|public/*-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/index.html)
+            case "$f" in public/index.html|public/all-overviews/index.html|public/dallas-2026-10-29-fossil-creek/index.html|public/dallas-2026-10-30/index.html|public/dallas-2026-10-31/index.html|public/updates/*|public/*-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/index.html)
               sed -i -E -e 's,href="([^":#?]*(/|\.html))",href="\1#avow-owner",g' -e 's,href="([./]*|[^"]*-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/|[^"]*updates/[^"]*|[^"]*/logo/[^"]*)#avow-owner",href="\1",g' "$f"; o=$((o+1)); continue;; esac
             case "$f" in public/avow/*|*/logo/*) continue;; esac
             grep -q 'data-goatcounter' "$f" && continue
