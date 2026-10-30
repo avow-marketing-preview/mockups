@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-2026-10-30/prep-at-home-contractors-school-dallas/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-2026-10-30/prep-at-home-contractors-school-dallas/sitemap.xml
