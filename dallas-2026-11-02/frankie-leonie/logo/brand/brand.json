@@ -1,0 +1,38 @@
+{
+ "palette": [
+  [
+   "Oxblood",
+   "#7A1E2C"
+  ],
+  [
+   "Denim",
+   "#3D5A80"
+  ],
+  [
+   "Parchment",
+   "#F5ECDD"
+  ],
+  [
+   "Night Rose",
+   "#2A1218"
+  ],
+  [
+   "Blush",
+   "#F2C9CF"
+  ]
+ ],
+ "fonts": [
+  [
+   "Fraunces SemiBold",
+   "Headlines (italic for accents)"
+  ],
+  [
+   "Libre Franklin",
+   "Body and buttons"
+  ],
+  [
+   "Oswald Medium",
+   "Labels, nav, tagline"
+  ]
+ ]
+}

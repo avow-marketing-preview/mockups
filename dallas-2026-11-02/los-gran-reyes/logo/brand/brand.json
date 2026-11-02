@@ -1,0 +1,34 @@
+{
+ "palette": [
+  [
+   "Rey Blue",
+   "#1D3FB8"
+  ],
+  [
+   "Midnight",
+   "#14215E"
+  ],
+  [
+   "Corona Pink",
+   "#E8327A"
+  ],
+  [
+   "Sol Orange",
+   "#FF7A1A"
+  ],
+  [
+   "Crema",
+   "#FFF4E2"
+  ]
+ ],
+ "fonts": [
+  [
+   "Bricolage Grotesque ExtraBold",
+   "Headlines"
+  ],
+  [
+   "Rubik",
+   "Body, buttons, tagline (700)"
+  ]
+ ]
+}
