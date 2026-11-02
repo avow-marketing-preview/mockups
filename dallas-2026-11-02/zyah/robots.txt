@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-2026-11-02/zyah/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-2026-11-02/zyah/sitemap.xml
