@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /dallas-2026-11-03/morgan-hawkins/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/dallas-2026-11-03/morgan-hawkins/sitemap.xml

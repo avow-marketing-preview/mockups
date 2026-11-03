@@ -1,0 +1,34 @@
+{
+ "palette": [
+  [
+   "Espresso",
+   "#2B1214"
+  ],
+  [
+   "Cherry Halo",
+   "#C21840"
+  ],
+  [
+   "Blush Cream",
+   "#FBF3EE"
+  ],
+  [
+   "Rose",
+   "#F4BCC6"
+  ]
+ ],
+ "fonts": [
+  [
+   "Bodoni Moda SemiBold",
+   "Headlines (italic for accents)"
+  ],
+  [
+   "Jost",
+   "Body and buttons"
+  ],
+  [
+   "Jost Medium",
+   "Labels, nav, tagline"
+  ]
+ ]
+}

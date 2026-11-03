@@ -1,0 +1,34 @@
+{
+ "palette": [
+  [
+   "Stage Black",
+   "#0B0C0E"
+  ],
+  [
+   "Front Line Teal",
+   "#2EE6C8"
+  ],
+  [
+   "Bone",
+   "#F2F0EA"
+  ],
+  [
+   "Deep Teal",
+   "#0F9A8A"
+  ]
+ ],
+ "fonts": [
+  [
+   "Barlow Condensed ExtraBold",
+   "Headlines"
+  ],
+  [
+   "Space Grotesk",
+   "Body and buttons"
+  ],
+  [
+   "Chakra Petch SemiBold",
+   "Labels, nav, tagline"
+  ]
+ ]
+}

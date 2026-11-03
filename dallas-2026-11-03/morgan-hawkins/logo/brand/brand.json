@@ -1,0 +1,34 @@
+{
+ "palette": [
+  [
+   "Ink Navy",
+   "#1F2A44"
+  ],
+  [
+   "Ozark Clay",
+   "#B4532A"
+  ],
+  [
+   "Songbook Paper",
+   "#F6F0E4"
+  ],
+  [
+   "Dusk",
+   "#E89068"
+  ]
+ ],
+ "fonts": [
+  [
+   "Newsreader Medium",
+   "Headlines (italic for accents)"
+  ],
+  [
+   "Libre Franklin",
+   "Body and buttons"
+  ],
+  [
+   "Libre Franklin SemiBold",
+   "Labels, nav, tagline"
+  ]
+ ]
+}
