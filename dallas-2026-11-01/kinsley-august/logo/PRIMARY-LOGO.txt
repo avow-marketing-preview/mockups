@@ -1,0 +1,2 @@
+PRIMARY LOGO: use the no-tagline files (*-no-tagline.svg / .pdf / .png). They are the primary logo as of Nov 3, 2026.
+The files without "-no-tagline" in the name are the earlier with-tagline versions, kept for reference.
