@@ -44,11 +44,11 @@ h1 em,h2 em{font-style:normal;color:var(--ac)}
 .hero{position:relative;background:#F4EFE6;color:#0E0D0D;overflow:hidden;padding:40px 0 0}
 .hero .w{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:end}
 .hero .tx{padding-bottom:72px;position:relative;z-index:2}.hero .k{color:#A80D25}.hero h1 em{color:#C8102E}.hero p.l{font-size:1.15rem;max-width:46ch;margin-top:22px;color:#3A3532}
-.hero .ph{position:relative;z-index:1}.hero .ph img{width:118%;max-width:none;margin-left:-6%;mix-blend-mode:multiply;position:relative;z-index:1}
+.hero .ph{position:relative;mix-blend-mode:multiply}.hero .ph img{width:118%;max-width:none;margin-left:-6%;mix-blend-mode:multiply;position:relative;z-index:1}
 .hero .btn.ol{color:#0E0D0D}.hero .btn.ol:hover{background:#0E0D0D;color:#F4EFE6;border-color:#0E0D0D}
 .radar{position:absolute;aspect-ratio:1;border-radius:50%;pointer-events:none}.radar i{position:absolute;inset:0;border-radius:50%;border:1.5px solid currentColor;opacity:.35}.radar i:nth-child(2){inset:14%}.radar i:nth-child(3){inset:28%}.radar i:nth-child(4){inset:42%;opacity:.6}
 .radar b{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 78%,currentColor 100%);opacity:.22;animation:sw 7s linear infinite}@keyframes sw{to{transform:rotate(1turn)}}
-.hero .radar{width:min(760px,64vw);right:-6%;top:-4%;color:#C8102E;z-index:0}
+.hero .radar{width:min(760px,64vw);right:-6%;top:-4%;color:#C8102E;z-index:2;mix-blend-mode:multiply;pointer-events:none}
 @media(max-width:900px){.hero .w{grid-template-columns:1fr;gap:8px}.hero .tx{padding-bottom:12px}.hero .radar{width:110vw;right:-40vw;top:auto;bottom:-20vw}}
 .tick{background:#C8102E;color:#fff;overflow:hidden;white-space:nowrap;border-block:3px solid #0E0D0D}.tick div{display:inline-flex;gap:34px;padding:16px 0;font:400 clamp(1.3rem,2.6vw,2rem)/1 H;text-transform:uppercase;letter-spacing:.04em;animation:mq 38s linear infinite}.tick span::after{content:"✕";margin-left:34px;font-size:.7em;vertical-align:.15em}@keyframes mq{to{transform:translateX(-50%)}}
 .feat{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:64px;align-items:center}@media(max-width:900px){.feat{grid-template-columns:1fr;gap:36px}}
