@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /fortworth-2026-11-11/ac-service-and-repairs/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/fortworth-2026-11-11/ac-service-and-repairs/sitemap.xml

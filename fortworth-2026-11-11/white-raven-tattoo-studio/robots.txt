@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /fortworth-2026-11-11/white-raven-tattoo-studio/original-logo/
+Sitemap: https://avow-marketing-preview.github.io/mockups/fortworth-2026-11-11/white-raven-tattoo-studio/sitemap.xml
